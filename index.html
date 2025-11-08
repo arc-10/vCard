@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev | Fullstack/Python Developer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/style.css">
+
+  <link rel="icon" type="image/png" href="media/logo.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-accent" href="#">Dev<span class="text-white">/</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/arc-10?tab=repositories">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero text-center py-5">
+    <div class="container">
+      <div class="hero-box mx-auto mb-4">
+        <img src="media/ava.jpeg" alt="Profile Picture"/>
+      </div>
+      <h1 class="fw-bold">Hi, I’m <span class="text-accent">Khon Dmitriy.</span></h1>
+      <h2 class="text-white">Fullstack/Python <span class="text-accent">dev.</span></h2>
+      <div class="icons mt-3">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-python"></i>
+        <i class="fab fa-git-alt"></i>
+      </div>
+    </div>
+  </section>
+
+  <div class="skills-bar py-3">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <span>WEB</span>
+      <span>PROGRAMMING</span>
+      <span>DEVELOPMENT</span>
+      <span>PYTHON</span>
+      <span>JAVASCRIPT</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>GIT</span>
+    </div>
+  </div>
+
+  <section class="about py-5" id="about">
+    <div class="container text-center text-md-start">
+      <h2 class="section-title text-center mb-4">About<span class="text-accent">.</span></h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div target="_blank" class="about-box"><a href="media/resume.pdf" target="_blank" class="about-box">Resume</a></div>
+        </div>
+        <div class="col-md-8">
+          <p>Нaписать о себе</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience py-5" id="experience">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Experience<span class="text-accent">.</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="date">2020 - 2021</span>
+          <h5>Python</h5>
+          <p>x</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">2024 - 2025</span>
+          <h5>Django</h5>
+          <p>x</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">? - ?</span>
+          <h5>?</h5>
+          <p>x</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="formation py-5" id="formation">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Formation<span class="text-accent">.</span></h2>
+      <div class="formation-item">
+        <i class="fa-solid fa-paintbrush"></i> UI / UX Design <span>Organized • ? hours</span>
+      </div>
+      <div class="formation-item">
+        <i class="fab fa-html5"></i> HTML & CSS <span>Organized • ? hours</span>
+      </div>
+      <div class="formation-item">
+        <i class="fab fa-js"></i> JavaScript <span>Organized • ? hours</span>
+      </div>
+      <div class="formation-item">
+        <i class="fab fa-python"></i>Python<span>Organized • ? hours</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact py-5 text-center" id="contact">
+    <div class="container">
+      <h2 class="section-title mb-4">Contact<span class="text-accent">.</span></h2>
+      <p>Contact me or follow me on social media</p>
+      <div class="contact-form mx-auto my-4 p-4 rounded-4">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="example@mail.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent w-100">Send Message</button>
+        </form>
+    </div>
+      <div class="contact-icons d-flex justify-content-center flex-wrap mt-3">
+        <a href="https://www.linkedin.com/in/dima-khon-057732336/"><i class="fab fa-linkedin"></i> Linkedin</a>
+        <a href="https://github.com/arc-10"><i class="fab fa-github"></i> Github</a>
+        <a href="https://x.com/Libra_arcc"><i class="fab fa-x-twitter"></i> Twitter</a>
+        <a href="mailto:drags222@gmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 text-muted">
+    ©2024 | ArCccc
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=105192748', 'ym');
+
+      ym(105192748, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/105192748" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</body>
+</html>
